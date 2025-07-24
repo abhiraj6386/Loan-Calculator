@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { collection, addDoc, getDocs, deleteDoc, doc, query, where } from "firebase/firestore"
 import { db } from "../../firebase/config"
 import { useAuth } from "../../contexts/AuthContext"
-import { calculateLoan, formatCurrency } from "../../utils/loanCalculations"
+import { calculateLoan, formatCurrency } from "../../utils/LoanCalculations"
 
 export default function SavedLoans({ onLoadLoan, currentLoanDetails }) {
   const [savedLoans, setSavedLoans] = useState([])

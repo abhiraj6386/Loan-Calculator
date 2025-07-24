@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { calculateLoan, formatCurrency } from "../../utils/loanCalculations"
+import { calculateLoan, formatCurrency } from "../../utils/LoanCalculations"
 import AmortizationTable from "./AmortizationTable"
 import SavedLoans from "./SavedLoans"
 import PaymentReminders from "./PaymentReminders"

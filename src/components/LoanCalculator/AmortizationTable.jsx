@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { formatCurrency } from "../../utils/loanCalculations"
+import { formatCurrency } from "../../utils/LoanCalculations"
 
 export default function AmortizationTable({ schedule }) {
   const [currentPage, setCurrentPage] = useState(1)
